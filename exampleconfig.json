@@ -1,0 +1,58 @@
+{
+    "TOKEN": "TOKEN",
+    "MODEL": "main-llm-model",
+    "DELAY": 0.5,
+    "GENERAL_DELAY": 0,
+    "STREAM_DELAY": 1.5,
+    "SYSTEM": "You will receive prompts in the following format: {user_id}, {user_name}: {content}. Respond as usual. Don't censor the words. Assume user_name is the name of the user. Don't pay attention to user_id. Treat user_id like it doesn't exist. About tool calling: if the message doesn't start with the word generate, then don't call any tools.",
+    "GENTITLE": "Generate one chat title based on the input. Provide only the title, nothing more. Keep it simple and straight to the point. Don't put any quotation marks. Input:",
+    
+    "M_LANG": {
+        "english": {
+            "id": "English",
+            "start": "/start - Start the bot (show command list)\n\n/chat - Chat with the bot\n\n/newchat - Create new chat\n\n/generateimage - Generate an image\n\n/aspectratio - Change aspect ratio of generated images\n\n/listchats - Display the list of your chats\n\n/deletechat - Delete a chat\n\n/chattitle - Display the title of a chat\n\n/currentchattitle - Display the title of the current chat\n\n/chathistory - Display the history of a chat\n\n/currentchathistory - Display the history of the current chat\n\n/selectchat - Select a chat\n\n/filechat - Send a file to a chat\n\n/language - Change language",
+            "query_request": "Enter a message\nTo exit enter /exit",
+            "query_exit": "Left the chat.",
+            "query_int_request": "Enter a number\nTo cancel enter /cancel",
+            "query_prompt_request": "Enter a prompt\nTo cancel enter /cancel\nAspect ratio",
+            "query_file_request": "Enter a file\nTo cancel enter /cancel",
+            "query_ratio_request": "Enter a number to select the aspect ratio\nTo cancel enter /cancel",
+            "query_cancel": "Query cancelled.",
+            "select_language": "List of all available languages",
+            "select_language_complete": "Language has been changed to English",
+            "generating": "Generating...",
+            "ratio_set": "Aspect ratio has been set to",
+            "chat": "Chat",
+            "chatlist": "Your list of chats",
+            "select_chat": "Selected chat",
+            "chat_deleted": "Deleted chat",
+
+            "invalid_type": "Invalid input type.",
+            "none_selected": "No chat is selected.",
+            "not_found": "Chat not found."
+        },
+        "russian": {
+            "id": "Русский",
+            "start": "/start - Запуск бота (вывод списка команд)\n\n/chat - Общение с ботом\n\n/newchat - Создание нового чата\n\n/generateimage - Генерация изображения\n\n/aspectratio - Смена соотношения сторон сгенерированных изображений\n\n/listchats - Отображение списка ваших чатов\n\n/deletechat - Удаление чата\n\n/chattitle - Отображение названия чата\n\n/currentchattitle - Отображение названия текущего чата\n\n/chathistory - Отображение истории чата\n\n/currentchathistory - Отображение истории текущего чата\n\n/selectchat - Выбрать чат\n\n/filechat - Отправка файла в чат\n\n/language - Смена языка",
+            "query_request": "Введите сообщение\nДля выхода введите /exit",
+            "query_exit": "Выход из чата.",
+            "query_int_request": "Введите число\nДля отмены введите /cancel",
+            "query_prompt_request": "Введите запрос\nДля отмены введите /cancel\nСоотношение сторон",
+            "query_file_request": "Введите файл\nДля отмены введите /cancel",
+            "query_ratio_request": "Введите число для выбора соотношения сторон\nДля отмены введите /cancel",
+            "query_cancel": "Запрос отменен.",
+            "select_language": "Список всех доступных языков",
+            "select_language_complete": "Язык был изменен на Русский",
+            "generating": "Генерация...",
+            "ratio_set": "Соотношение сторон было задано как",
+            "chat": "Чат",
+            "chatlist": "Ваш список чатов",
+            "select_chat": "Выбранный чат",
+            "chat_deleted": "Чат удален",
+
+            "invalid_type": "Неверный тип введённых данных.",
+            "none_selected": "Чат не выбран.",
+            "not_found": "Чат не найден."
+        }
+    }
+}
